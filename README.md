@@ -1,125 +1,176 @@
-# 🛍️ Online Retail Sales Analysis
+Online Retail Sales Analysis
+Project Status
 
-## 📌 Project Status
+Current Status: In Progress
 
-🚧 **Work in Progress**
+This project is an end-to-end retail sales analysis portfolio project that demonstrates the complete analytics workflow using Python (Pandas) for data preparation and exploratory data analysis, MySQL for business-oriented SQL analysis, and Power BI for interactive dashboard development.
 
-This project is currently under development as part of my Data Analytics portfolio. The initial phase focuses on data cleaning, exploratory data analysis (EDA), and feature engineering using Python. SQL analysis and an interactive Power BI dashboard will be added in the upcoming phases.
+The Python and MySQL phases have been completed. The Power BI dashboard is currently under development.
 
----
+Project Overview
 
-## 📖 Project Overview
+This project analyses a large online retail sales dataset containing over one million transaction records to identify business insights related to sales performance, customer behaviour, product performance, and geographical sales trends.
 
-The Online Retail Sales Analysis project aims to analyze over one million retail transactions to uncover business insights such as sales trends, customer behavior, and product performance.
+The project follows a typical data analytics workflow:
 
-The project demonstrates the end-to-end data analytics process, including:
+Data Cleaning and Preprocessing
+Exploratory Data Analysis (EDA)
+Feature Engineering
+Business Analysis using MySQL
+Interactive Dashboard Development using Power BI
+Technologies Used
+Python
+Pandas
+NumPy
+Matplotlib
+MySQL
+Jupyter Notebook
+Power BI (In Progress)
+Dataset
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- SQL Analysis *(In Progress)*
-- Power BI Dashboard *(Planned)*
+The project uses a large online retail transaction dataset containing more than 1 million records.
 
----
+The dataset includes the following attributes:
 
-## 🛠️ Technologies Used
+Invoice Number
+Stock Code
+Product Description
+Quantity
+Invoice Date
+Unit Price
+Customer ID
+Country
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
+The dataset was cleaned and transformed before performing business analysis and visualization.
 
+Project Workflow
+Raw Dataset
+      │
+      ▼
+Python (Pandas)
+• Data Cleaning
+• Feature Engineering
+• Exploratory Data Analysis
+      │
+      ▼
+MySQL
+• Data Quality Checks
+• Business Analysis
+• Sales Metrics
+• Customer Analysis
+• Advanced SQL
+      │
+      ▼
+Power BI (In Progress)
+• KPI Dashboard
+• Interactive Reports
+• Business Visualizations
+Python Analysis
 
-## 📂 Dataset
+The Python phase focused on preparing the dataset for analysis.
 
-The project uses a large online retail sales transaction dataset containing over **1 million records**. The dataset includes information such as:
+Tasks Completed
+Imported the dataset
+Explored dataset structure
+Checked data types
+Handled missing values
+Removed duplicate records
+Removed invalid sales records
+Converted date columns
+Created Revenue column
+Extracted Year and Month
+Performed Exploratory Data Analysis (EDA)
+MySQL Analysis
 
-- Invoice Number
-- Product Code
-- Product Description
-- Quantity
-- Invoice Date
-- Unit Price
-- Customer ID
-- Country
+The cleaned dataset was imported into MySQL to perform business-oriented analysis.
 
-The dataset is used for practicing data cleaning, exploratory data analysis (EDA), feature engineering, SQL analysis, and business intelligence reporting.
+Data Quality Checks
+Total records
+Missing value analysis
+Duplicate record detection
+Date range validation
+Sales Analysis
+Total Sales Revenue
+Monthly Revenue Trend
+Monthly Order Trend
+Average Order Value (AOV)
+Product Analysis
+Top Revenue Products
+Top Selling Products
+Lowest Performing Products
+Country Analysis
+Country-wise Revenue
+Country-wise Orders
+Country-wise Customers
+Advanced SQL
+Common Table Expressions (CTEs)
+Window Functions (RANK())
+Business Questions Answered
+Which products generate the highest revenue?
+Which products sell the highest quantity?
+Which countries generate the highest revenue?
+Which countries have the highest number of customers?
+How do monthly sales and order volumes change over time?
+What is the Average Order Value (AOV)?
+How are countries ranked based on total revenue?
+Power BI (In Progress)
 
+The final phase of the project will include an interactive dashboard with:
 
-
-## ✅ Work Completed
-
-- Imported dataset into Python
-- Data exploration
-- Checked data types and missing values
-- Handled missing values
-- Removed duplicate records
-- Converted date columns
-- Created Revenue column
-
-
-## 🚀 Upcoming Tasks
-
-- Import cleaned data into MySQL
-- Perform SQL analysis
-- Build Power BI dashboard
-- Create business KPIs
-- Generate interactive visualizations
-- Document business insights
-
----
-
-## 📁 Project Structure
-
-```
+Executive KPI Dashboard
+Revenue Analysis
+Monthly Sales Trends
+Country-wise Performance
+Product Performance
+Customer Insights
+Interactive Filters and Slicers
+Project Structure
 Online-Retail-Sales-Analysis/
 │
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│   ├── exploratory_data_analysis.ipynb
+├── Dataset/
 │
-├── data/
-│   ├── online_retail_sample.csv
+├── Python/
+│   ├── Online Sales EDA.ipynb
+│
+├── MySQL/
+│   └── Online_Sales_EDA.sql
+│
+├── PowerBI/
+│   ├── Online_Retail_Dashboard.pbix
+│
+├── Images/
 │
 ├── README.md
 │
 └── requirements.txt
-```
 
----
+Skills Demonstrated
+Python
+Pandas
+Data Cleaning
+Data Wrangling
+Exploratory Data Analysis (EDA)
+Feature Engineering
+SQL
+MySQL
+Aggregate Functions
+Joins and Filtering
+Common Table Expressions (CTEs)
+Window Functions
+Business Analysis
+Data Visualization
 
-## 🎯 Project Goals
+Future Enhancements
+Complete Power BI Dashboard
+Add DAX Measures
+Build Interactive KPI Reports
+Publish Dashboard Screenshots
+Document Key Business Insights
+Enhance Dashboard with Drill-through Analysis
+Repository Contents
+Python notebook for data cleaning and exploratory analysis
+MySQL script containing business analysis queries
+Power BI dashboard (under development)
+Project documentation
 
-- Analyze sales performance
-- Identify top-selling products
-- Study customer purchasing behavior
-- Discover revenue trends
-- Build an interactive business dashboard
-
----
-
-## 📌 Skills Demonstrated
-
-- Python
-- Pandas
-- Data Cleaning
-- Data Wrangling
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-
----
-
-## 📈 Future Enhancements
-
-- SQL Analysis using MySQL
-- Power BI Dashboard
-- DAX Measures
-- Customer Segmentation
-- Sales Forecasting
-- Interactive Reporting
-
-
----
-
-⭐ This repository is actively being updated as the project progresses.
+This repository demonstrates an end-to-end data analytics workflow, beginning with raw transactional data and progressing through data preparation, SQL-based business analysis, and business intelligence reporting.
